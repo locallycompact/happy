@@ -20,9 +20,9 @@ This is only supported in the bootstrapped version
 #ifdef HAPPY_BOOTSTRAP
 > import Happy.Frontend.AttrGrammar.Parser
 > import Data.List     ( findIndices, groupBy, intersperse, nub )
-> import Control.Monad ( when )
-#endif
 
+#endif
+> import Control.Monad ( when )
 > import Happy.Frontend.ParamRules
 
 > import Data.Array ( Array, (!), accumArray, array, listArray )
