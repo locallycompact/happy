@@ -38,7 +38,7 @@ tested-with:
 flag bootstrap
   description: Optimize the implementation of happy using a pre-built happy
   manual: True
-  default: True
+  default: False
 
 library
   hs-source-dirs:      src
